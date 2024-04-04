@@ -83,3 +83,98 @@ nav ul li a:hover {
     background-color: #ff6347;
 }
 
+/* Categories Section Styles */
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.category {
+    text-align: center;
+    margin-bottom: 30px;
+	max-width: 900px;
+    margin: 0 auto;
+}
+
+.category img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+.category h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.category p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 15px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.category .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #ffd700;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.category .btn:hover {
+    background-color: #ffcc00;
+}
+
+/* Testimonials Section Styles */
+.testimonials {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonial blockquote {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.testimonial cite {
+    font-style: italic;
+    color: #888;
+}
+
+.testimonial .rating {
+    color: #ff6347;
+    font-size: 24px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
