@@ -46,3 +46,40 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #FFDD13;
 }
+
+/* Banner Styles */
+.banner {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner img {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.banner h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.banner .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.banner .btn:hover {
+    background-color: #ff6347;
+}
+
