@@ -228,3 +228,28 @@ footer a:hover {
 * {
   overflow-x: hidden; /* Prevent horizontal scrolling */
 }
+
+/* Media Queries */
+@media only screen and (min-width: 768px) {
+  /* Add styles for tablets */
+  /* Example: */
+  .banner h1 {
+    font-size: 40px;
+  }
+
+  .category img {
+    max-width: 400px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* Add styles for desktops */
+  /* Example: */
+  .banner h1 {
+    font-size: 48px;
+  }
+
+  .category img {
+    max-width: 600px;
+  }
+}
