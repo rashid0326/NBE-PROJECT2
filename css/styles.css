@@ -224,3 +224,7 @@ footer a:hover {
   height: 120px;
   width: 100%;
 }
+
+* {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
