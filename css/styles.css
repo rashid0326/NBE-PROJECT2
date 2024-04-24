@@ -20,11 +20,11 @@ header {
 }
 
 .round-img {
-  border-radius: 50%; 
-  max-width:100%; 
-  height:auto;"
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
 }
-	
+
 nav ul {
   list-style-type: none;
   display: flex;
@@ -227,4 +227,35 @@ footer a:hover {
 
 * {
   overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Media Queries for Mobile-First Design */
+@media screen and (min-width: 768px) {
+  /* Adjust styles for tablets and larger screens */
+  .banner img {
+    max-width: 500px;
+  }
+
+  .category img {
+    max-width: 200px;
+  }
+
+  .contact-form {
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* Adjust styles for desktop screens */
+  .banner img {
+    max-width: 700px;
+  }
+
+  .category img {
+    max-width: 300px;
+  }
+
+  .contact-form {
+    max-width: 800px;
+  }
 }
