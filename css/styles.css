@@ -50,7 +50,7 @@ nav ul li a:hover {
 .category {
   text-align: center;
   margin-bottom: 30px;
-  max-width: 900px;
+  max-width: 90%; /* Adjusted for smaller screens */
   margin: 0 auto;
 }
 
@@ -61,12 +61,12 @@ nav ul li a:hover {
 }
 
 .category h1 {
-  font-size: 34px;
+  font-size: 24px; /* Adjusted font size for mobile */
   margin-bottom: 5px;
 }
 
 .category p {
-  font-size: 25px;
+  font-size: 16px; /* Adjusted font size for mobile */
   color: black;
   margin-bottom: 15px;
 }
@@ -109,11 +109,11 @@ footer a:hover {
   }
 
   .category h1 {
-    font-size: 40px;
+    font-size: 34px;
   }
 
   .category p {
-    font-size: 28px;
+    font-size: 25px;
   }
 }
 
