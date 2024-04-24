@@ -1,6 +1,8 @@
+/* STYLES.CSS */
+
 /* Global Styles */
 html, body {
-  font-family: "Satisfy", cursive, Arial, sans-serif;
+  font-family: "Anta", "Kode Mono", "Satisfy", cursive, Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-image: linear-gradient(to bottom right, #FE6A86, #FD969A, #FEE255, #FFDD13);
@@ -104,4 +106,43 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 768px) {
+  /* Styles for tablets and desktops */
+  .categories {
+    padding: 30px 0;
+  }
+
+  .category img {
+    max-width: 400px;
+  }
+
+  .category h1 {
+    font-size: 40px;
+  }
+
+  .category p {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* Styles for large desktops */
+  .categories {
+    padding: 40px 0;
+  }
+
+  .category img {
+    max-width: 500px;
+  }
+
+  .category h1 {
+    font-size: 45px;
+  }
+
+  .category p {
+    font-size: 32px;
+  }
 }
