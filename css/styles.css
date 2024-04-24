@@ -5,6 +5,9 @@ body {
   padding: 0;
   background-image: linear-gradient(to bottom right, #FE6A86, #FD969A, #FEE255, #FFDD13);
   overflow-x: hidden; /* Prevent horizontal scrolling */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Hide scrollbar for content overflow */
