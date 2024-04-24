@@ -1,15 +1,16 @@
 /* Global Styles */
 body {
-  font-family: "Satisfy", cursive, Arial, sans-serif;
+  font-family: "Anta", Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-image: linear-gradient(to bottom right, #FE6A86, #FD969A, #FEE255, #FFDD13);
+  font-size: 16px; /* Added font size for consistency */
 }
 
 /* Header Styles */
 header {
   background-color: #FFDCE0;
-  padding: 5px 0;
+  padding: 10px 0; /* Increased padding for better spacing */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,12 +20,6 @@ header {
   width: 120px;
 }
 
-.round-img {
-  border-radius: 50%; 
-  max-width:100%; 
-  height:auto;"
-}
-	
 nav ul {
   list-style-type: none;
   display: flex;
@@ -115,7 +110,7 @@ nav ul li a:hover {
 }
 
 .category p {
-  font-size: 25px;
+  font-size: 20px; /* Adjusted font size for readability */
   color: black;
   margin-bottom: 15px;
 }
