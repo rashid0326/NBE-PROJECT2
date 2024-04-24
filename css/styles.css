@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: linear-gradient(to bottom right, #FE6A86, #FD969A, #FEE255, #FFDD13);
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 /* Header Styles */
@@ -20,11 +21,11 @@ header {
 }
 
 .round-img {
-  border-radius: 50%; 
-  max-width:100%; 
-  height:auto;"
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
 }
-	
+
 nav ul {
   list-style-type: none;
   display: flex;
@@ -227,29 +228,4 @@ footer a:hover {
 
 * {
   overflow-x: hidden; /* Prevent horizontal scrolling */
-}
-
-/* Media Queries */
-@media only screen and (min-width: 768px) {
-  /* Add styles for tablets */
-  /* Example: */
-  .banner h1 {
-    font-size: 40px;
-  }
-
-  .category img {
-    max-width: 400px;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  /* Add styles for desktops */
-  /* Example: */
-  .banner h1 {
-    font-size: 48px;
-  }
-
-  .category img {
-    max-width: 600px;
-  }
 }
