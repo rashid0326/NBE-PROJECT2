@@ -19,7 +19,7 @@
     <div class="logo">
       <img src="media/logo.png" alt="Toronto Cupcake Logo">
     </div>
-     <nav>
+    <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -40,17 +40,32 @@
       <!-- "Why" Argument -->
       <h2>Why Contact Us?</h2>
       <p>At Toronto Cupcake, we value your feedback and inquiries. Whether you're looking for custom orders or have questions about our products, we're here to ensure your experience is delightful and satisfying.</p>
-      
+
       <!-- Sign Up Section -->
       <section class="signup">
         <h2>Sign Up for Our Newsletter</h2>
-        <form action="submit_signup.php" method="POST">
+        <form action="submit_signup.php" method="POST" onsubmit="return showThankYou()">
           <label for="email">Email:</label>
           <input type="email" id="email" name="email" required>
           <button type="submit">Sign Up</button>
         </form>
       </section>
-      
+
+      <!-- Comment Section -->
+      <section class="comments">
+        <h2>Comments & Feedback</h2>
+        <form action="submit_feedback.php" method="POST">
+          <label for="comment">Your Comment:</label>
+          <textarea id="comment" name="comment" rows="4" required></textarea>
+          <button type="submit">Submit Feedback</button>
+        </form>
+      </section>
+
+      <!-- Thank You Message -->
+      <div id="thankYouMessage" style="display: none;">
+        <p>Thank you for signing up!</p>
+      </div>
+
     </div>
   </section>
 
@@ -65,5 +80,8 @@
     </ul>
     <p>&copy; 2024 Toronto Cupcake</p>
   </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
 </body>
 </html>
