@@ -1,0 +1,141 @@
+/* Global Styles */
+html, body {
+  font-family: "Satisfy", cursive, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom right, #FE6A86, #FD969A, #FEE255, #FFDD13);
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* Header Styles */
+header {
+  background-color: #FFDCE0;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navigation Menu Styles */
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap; /* Allow menu items to wrap to the next line */
+  justify-content: center; /* Center align menu items */
+}
+
+nav ul li {
+  margin-right: 10px;
+  margin-bottom: 10px; /* Add space between menu items */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #FFDD13;
+}
+
+/* Content Section Styles */
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.category {
+  text-align: center;
+  margin-bottom: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.category img {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+
+.category h1 {
+  font-size: 34px;
+  margin-bottom: 5px;
+}
+
+.category p {
+  font-size: 25px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+  /* Styles for tablets and desktops */
+  body {
+    font-size: 16px;
+  }
+
+  nav ul {
+    justify-content: flex-end; /* Right align menu items */
+  }
+
+  nav ul li {
+    margin-right: 20px;
+    margin-bottom: 0; /* Remove margin bottom for desktop view */
+  }
+
+  .category h1 {
+    font-size: 40px;
+  }
+
+  .category p {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* Styles for large desktops */
+  nav ul li {
+    margin-right: 30px;
+  }
+
+  .category h1 {
+    font-size: 48px;
+  }
+
+  .category p {
+    font-size: 32px;
+  }
+}
